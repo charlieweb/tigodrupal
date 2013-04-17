@@ -105,6 +105,7 @@ function superfish_block_configure($delta = 0) {
       'space-orange' => t('Space [Orange]'),
       'space-teal' => t('Space [Teal]'),
       'spring' => t('Spring'),
+      'tigo' => t('tigo'),
       'white' => t('White')
       ),
   );
