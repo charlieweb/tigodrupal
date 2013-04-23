@@ -2,9 +2,13 @@
   overflow: visible;
 }
 .sf-menu.sf-style-tigo {
-  float: left;
   margin: 0;
   padding: 0;
+  height: 64px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   border-radius: 5px;
+  background: #4469b0;
 }
 .sf-menu.sf-style-tigo a > .sf-sub-indicator {
   top: 1.6em;
@@ -37,15 +41,21 @@
 .sf-menu.sf-style-tigo.sf-vertical.sf-shadow.rtl ul,
 .sf-menu.sf-style-tigo.sf-navbar.sf-shadow.rtl ul ul {
   padding: 0 0 7px 8px !important;
+  margin-top: 20px;
+
   
 }
+
 .sf-menu.sf-style-tigo.sf-horizontal li:hover > ul,
 .sf-menu.sf-style-tigo.sf-horizontal li.sfHover > ul {
-  top: 48px;
+  top: 65px;
+  background: #f7f7f9;
+  
 }
 .sf-menu.sf-style-tigo.sf-horizontal > li:hover > ul,
 .sf-menu.sf-style-tigo.sf-horizontal > li.sfHover > ul {
-  left: -1px;
+  left: -5px; 
+
 }
 .sf-menu.sf-style-tigo.sf-horizontal.rtl > li:hover > ul,
 .sf-menu.sf-style-tigo.sf-horizontal.rtl > li.sfHover > ul {
@@ -60,10 +70,13 @@
 .sf-menu.sf-style-tigo.sf-navbar li li li.sfHover > ul,
 .sf-menu.sf-style-tigo.sf-navbar li li li.active-trail ul {
   top: -1px;
+
 }
 .sf-menu.sf-style-tigo.sf-horizontal > li.first:hover > ul,
 .sf-menu.sf-style-tigo.sf-horizontal > li.first.sfHover > ul {
-  left: 10px;
+  left: -165px;
+
+  
 }
 .sf-menu.sf-style-tigo.sf-horizontal.rtl > li.first:hover > ul,
 .sf-menu.sf-style-tigo.sf-horizontal.rtl > li.first.sfHover > ul {
@@ -76,22 +89,23 @@
 .sf-menu.sf-style-tigo.sf-vertical li.first.sfHover > ul,
 .sf-menu.sf-style-tigo.sf-navbar li li li li.first:hover > ul,
 .sf-menu.sf-style-tigo.sf-navbar li li li li.first.sfHover > ul {
-  top: 10px;
+  top: 10px; 
 }
 .sf-menu.sf-style-tigo.sf-navbar > li:hover > ul,
 .sf-menu.sf-style-tigo.sf-navbar > li.sfHover > ul,
 .sf-menu.sf-style-tigo.sf-navbar > li.active-trail > ul {
-  top: 50px;
+  top: 50px; 
 }
 .sf-menu.sf-style-tigo.sf-navbar li li:hover > ul,
 .sf-menu.sf-style-tigo.sf-navbar li li.sfHover > ul {
-  top: 38px;
+  top: 38px; 
 }
 .sf-menu.sf-style-tigo a,
 .sf-menu.sf-style-tigo a:visited  {
   color: #fff;
-  font: normal 12px Arial, Helvetica, Tahoma, Verdana, Sans-serif;
-  padding: 1.8em 1.5em;
+  font: normal 13px Arial, Helvetica, Tahoma, Verdana, Sans-serif;
+  padding: 1.9em 1.5em;
+  font-weight: bold;
   text-decoration: none;
 }
 .sf-menu.sf-style-tigo a:focus,
@@ -100,13 +114,14 @@
 .sf-menu.sf-style-tigo li:hover > a,
 .sf-menu.sf-style-tigo li.sfHover > a {
   color: #4469b0;
+  background:#f7f7f9;
 }
 .sf-menu.sf-style-tigo li li a,
 .sf-menu.sf-style-tigo.sf-vertical a {
   padding: 1em 1.5em;
 }
 .sf-menu.sf-style-tigo a.sf-with-ul {
-  padding-right: 3em;
+  padding-right: -3em;
 }
 .sf-menu.sf-style-tigo.rtl a.sf-with-ul {
   padding-left: 3em;
@@ -115,9 +130,9 @@
 .sf-menu.sf-style-tigo span.sf-description {
   color: #666666;
   display: block;
-  font-size: 0.8em;
-  line-height: 1.5em;
-  margin: 5px 0 0 5px;
+  font-size: 13px;
+  line-height: 1.2em;
+  margin: 20px 0 0 5px;
   padding: 0;
 }
 .sf-menu.sf-style-tigo.sf-horizontal li,
@@ -126,7 +141,7 @@
 }
 .sf-menu.sf-style-tigo.sf-horizontal > li.first,
 .sf-menu.sf-style-tigo.sf-navbar > li.first {
-  
+ 
 }
 .sf-menu.sf-style-tigo.sf-horizontal.rtl > li.first,
 .sf-menu.sf-style-tigo.sf-navbar.rtl > li.first {
@@ -159,12 +174,13 @@
   
 }
 .sf-menu.sf-style-tigo li {
-  background: #4469b0;
+  
 
 }
 .sf-menu.sf-style-tigo li:hover,
 .sf-menu.sf-style-tigo li.sfHover {
   background: url('images/tigo-background-active.png') repeat-x top left #fefefe;
+
 }
 .sf-menu.sf-style-tigo.sf-horizontal > li.first {
   
@@ -236,25 +252,36 @@
 .sf-menu.sf-style-tigo li ul.sf-megamenu li ol li {
   background: none;
   border: 0 none;
+  
+
 
 }
 .sf-menu.sf-style-tigo li ul.sf-megamenu li.sf-megamenu-wrapper {
+width: auto;
+
   
 }
 .sf-menu.sf-style-tigo li ul.sf-megamenu  li.sf-megamenu-wrapper,
 .sf-menu.sf-style-tigo li ul.sf-megamenu  li.sf-megamenu-wrapper:hover,
 .sf-menu.sf-style-tigo li ul.sf-megamenu  li.sf-megamenu-wrapper.sfHover {
-  background:#fff; 
+  background:#f7f7f9;
+  padding-bottom: 15px; 
+  left: -2px;
+
+
 }
+
 .sf-menu.sf-style-tigo li ul.sf-megamenu li.sf-megamenu-wrapper ol,
 .sf-menu.sf-style-tigo li ul.sf-megamenu li.sf-megamenu-wrapper ol li {
   margin: 0;
   padding: 0;
 
+
 }
 .sf-menu.sf-style-tigo ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column > a {
   font-weight: bold;
   padding: 1em;
+  font-size: 14px;
 
 
 }
@@ -277,39 +304,48 @@
   margin: 0 1em 0 0;
   padding: 0 1em 0 0;
 
+
 }
 .sf-menu.sf-style-tigo ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column ol li a {
-  font-size: 0.8em;
-  padding: 0.5em 0;
+  font-size: 13px;
+  padding: 20px 20px 0 0;
   color:  #000;
 
 }
 .sf-menu.sf-style-tigo ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
-  display: inline-block;
+  
   margin-top: 10px;
   height: auto;
   float: left;
-  width: 12em;
-  background: #fff;
+  width: 18em;
+  background: #f7f7f9;
+  border-left: 1px solid #E7E8ED;
+   
 
 }
 .sf-menu.sf-style-tigo.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
-  float: right;
+  float: left;
 
 }
 .sf-menu.sf-style-tigo li.sf-parent-children-1 ul.sf-megamenu {
-  width: 12em;
-
+ width: 930px;
+ overflow: hidden;
+ background: #f7f7f9;
 
 }
 .sf-menu.sf-style-tigo li.sf-parent-children-2 ul.sf-megamenu {
-  width: 24em;
+  width: 930px;
+  left: -500px;
+  overflow: hidden;
+  background: #f7f7f9;
 
 }
 .sf-menu.sf-style-tigo li.sf-parent-children-3 ul.sf-megamenu {
-  width: 36em;
-
-  color:  #000;
+  width: 930px;
+  left: -340px;
+  background: #f7f7f9;
+  overflow: hidden;
+  
 }
 .sf-menu.sf-style-tigo li.sf-parent-children-4 ul.sf-megamenu {
   width: 48em;

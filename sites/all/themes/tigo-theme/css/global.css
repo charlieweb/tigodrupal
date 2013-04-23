@@ -8,16 +8,22 @@ width: 100%;
 height: 20px;
 
 }
-
+#menu-450-1 .sf-depth-2 span {background: #000; }
 #zone-menu-wrapper{margin-top: 20px;}
-#block-block-2{float: left; padding: 10px; background: #aeafb1; -webkit-border-radius: 5px 0 0;
-  -moz-border-radius: 5px 0 0;
-  border-radius: 5px 0 0;}
-.logo{ background:url(../logo.png) no-repeat; width: 140px; height: 40px; 
-}
-#block-superfish-1{}
+#block-superfish-1{-webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;}
+#block-block-2{  float: left;  background: #aeafb1; padding: 13px; 
+                 
+                -webkit-border-radius: 8px 0 0; 
+                -moz-border-radius: 8px 0 0;
+                border-radius: 5px 0 0;}
+.logo{ background:url(../logo.png) no-repeat; width: 140px; height: 40px;
 
-#superfish-1 li{  height:60px;}
+}
+
+#menu-450-1, #menu-452-1, #menu-457-1{width: 220px; float: left;}
+
 .sf-depth-2 span{ font-size: 15px; padding-top: 20px; padding-left: 10px; float: left; color:#4469b0; font-weight: bold;}
 /*
 .sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited{ color:#fff; text-decoration: none;}
@@ -25,30 +31,11 @@ height: 20px;
 background: #4469b0;
 */
 
-
-
-
-#block-tigo-menu-menu-secundario-tigo .menu > * {
-  background: URL("../imagenes/menu-division.png") right 12px no-repeat;
-  float: left;
-  height: 60px;
-  line-height: 55px;
-  margin-top: 6px;
-  padding-right: 8px;
-  -webkit-border-top-left-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  -moz-border-radius-topright: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-
-
 /*header*/
 
 
 /*Content*/
+#first-time{display: none;}
 .view-id-categoria_home{margin-left: 5px;}
 .cat-content{
   -webkit-border-radius: 5px;
