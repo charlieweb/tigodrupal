@@ -1,0 +1,24 @@
+a.menu-450, ul.links li.menu-450 a {
+  background-image: url(/sites/default/files/styles/large/public/menu_icons/menu_icon_450.png);
+  padding-left:216px;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 220px;
+}
+
+a.menu-452, ul.links li.menu-452 a {
+  background-image: url(/sites/default/files/styles/large/public/menu_icons/menu_icon_452.png);
+  padding-left:216px;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 220px;
+}
+
+a.menu-457, ul.links li.menu-457 a {
+  background-image: url(/sites/default/files/styles/large/public/menu_icons/menu_icon_457.png);
+  padding-left:216px;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 220px;
+}
+
