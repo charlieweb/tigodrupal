@@ -371,3 +371,27 @@ width: auto;
 .sf-menu.sf-style-tigo li.sf-parent-children-10 ul.sf-megamenu {
   width: 120em;
 }
+
+@media all and (max-width: 800px) and (min-width: 420px) {
+
+.sf-menu.sf-style-tigo li.sf-parent-children-1 ul.sf-megamenu {
+ width: 530px;
+ overflow: hidden;
+ background: #f7f7f9;
+
+}
+.sf-menu.sf-style-tigo li.sf-parent-children-2 ul.sf-megamenu {
+  width:630px;
+  left: -515px;
+  overflow: hidden;
+  background: #f7f7f9;
+
+}
+.sf-menu.sf-style-tigo li.sf-parent-children-3 ul.sf-megamenu {
+  width: 535px;
+  left: -355px;
+  background: #f7f7f9;
+  overflow: hidden;
+
+
+}
