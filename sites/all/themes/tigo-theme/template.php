@@ -10,3 +10,5 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+
+drupal_add_js('sites/all/themes/tigo-theme/js/menu.js', 'file'); 

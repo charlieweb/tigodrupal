@@ -75,7 +75,7 @@
 }
 .sf-menu.sf-style-tigo.sf-horizontal > li.first:hover > ul,
 .sf-menu.sf-style-tigo.sf-horizontal > li.first.sfHover > ul {
-  left: -165px;
+  left: -170px;
 
   
 }
@@ -337,14 +337,14 @@ width: auto;
 }
 .sf-menu.sf-style-tigo li.sf-parent-children-2 ul.sf-megamenu {
   width: 930px;
-  left: -500px;
+  left: -515px;
   overflow: hidden;
   background: #f7f7f9;
 
 }
 .sf-menu.sf-style-tigo li.sf-parent-children-3 ul.sf-megamenu {
-  width: 930px;
-  left: -340px;
+  width: 935px;
+  left: -355px;
   background: #f7f7f9;
   overflow: hidden;
 
